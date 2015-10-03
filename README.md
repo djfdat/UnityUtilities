@@ -42,6 +42,6 @@ StartCoroutine(transform.LinearShake(4f, 8f, Axis.ALL, false));
 
 ### ReturnRandomBit
 ```C#
-Debug.Log(BitmaskExtensions.ReturnRandomBit(5));
+Debug.Log(5.ReturnRandomBit());
 // Will return either 1 or 4
 ```
