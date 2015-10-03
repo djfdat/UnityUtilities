@@ -26,6 +26,7 @@ Debug.Log(myList.RandomIndex(1));
 ## Transform Extensions
 Assets/Scripts/Extensions/TransformExtensions.cs
 
+### LinearShake
 ```C#
 StartCoroutine(Camera.main.transform.LinearShake(2f, 2f, Axis.XY));
 // Will cause the camera to shake for 2 seconds on the x and y axis individually
@@ -39,6 +40,7 @@ StartCoroutine(transform.LinearShake(4f, 8f, Axis.ALL, false));
 ## Bitmask Extensions
 Assets/Scripts/Extensions/BitmaskExtensions.cs
 
+### ReturnRandomBit
 ```C#
 Debug.Log(BitmaskExtensions.ReturnRandomBit(5));
 // Will return either 1 or 4
