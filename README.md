@@ -2,7 +2,7 @@
 A collection of C# scripts to assist with frequent Unity use cases
 
 ## List Extensions
-Assets/Scripts/Extensions/ListExtensions.cs
+[ListExtensions.cs](Assets/Scripts/Extensions/ListExtensions.cs)
 
 A collection of useful functions that can be called directly on lists.
 
@@ -24,7 +24,7 @@ Debug.Log(myList.RandomIndex(1));
 ```
 
 ## Transform Extensions
-Assets/Scripts/Extensions/TransformExtensions.cs
+[TransformExtensions.cs](Assets/Scripts/Extensions/TransformExtensions.cs)
 
 ### LinearShake
 ```C#
@@ -38,7 +38,7 @@ StartCoroutine(transform.LinearShake(4f, 8f, Axis.ALL, false));
 ```
 
 ## Bitmask Extensions
-Assets/Scripts/Extensions/BitmaskExtensions.cs
+[BitmaskExtensions.cs](Assets/Scripts/Extensions/BitmaskExtensions.cs)
 
 ### ReturnRandomBit
 ```C#
