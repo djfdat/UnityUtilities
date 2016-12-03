@@ -16,4 +16,18 @@ public static class ListExtensions
 		}
 		return (excludedIndex + Random.Range(1, list.Count)) % list.Count;
 	}
+	
+	public static List<T> ExtractComponent<T>(this List<GameObject> GameObjects)
+	{
+		List<T> returnList = new List<T>();
+		foreach (GameObject go in GameObjects)
+		{
+			T tempC = go.GetComponent<T>();
+			if (tempC != null)
+			{
+				returnList.Add(tempC);
+			}
+		}
+		return returnList;
+	}
 }
