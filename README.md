@@ -28,9 +28,9 @@ Debug.Log(myList.RandomIndex(1));
 List<GameObject> candyObjects = new List<GameObject>(GameObject.FindGameObjectsWithTag("Candy"));
 // Build a list of game objects to extract components from
 List<CandyComponent> candies = candyObjects.ExtractComponent<CandyComponent>();
-// Returns a list of *CandyComponents* attached to gameobjects in _candyObjects_
+// Returns a list of CandyComponents attached to gameobjects in candyObjects
 List<Transform> candyTransforms = candyObjects.ExtractComponent<Transform>();
-// Returns a list of *Transforms* attached to gameobjects in _candyObjects_
+// Returns a list of Transforms attached to gameobjects in candyObjects
 ```
 
 ## Transform Extensions
