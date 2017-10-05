@@ -1,6 +1,8 @@
 # UnityUtilities
 A collection of C# scripts to assist with frequent Unity use cases
 
+Verified working on Unity3D version 2017.1.1.
+
 ## List Extensions
 [ListExtensions.cs](Assets/Scripts/Extensions/ListExtensions.cs)
 
